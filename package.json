@@ -1,0 +1,21 @@
+{
+  "name": "band-box",
+  "version": "0.0.1",
+  "description": "A BAND example in a Truffle block",
+  "scripts": {
+    "compile": "yarn truffle compile",
+    "test": "yarn truffle test",
+    "deploy": "yarn truffle migrate --network ropsten"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "band-solidity": "^0.0.8",
+    "chai": "^4.2.0",
+    "openzeppelin-solidity": "^2.3.0",
+    "openzeppelin-test-helpers": "^0.4.3",
+    "solc": "^0.5.11",
+    "truffle": "^5.0.32",
+    "truffle-flattener": "^1.4.2",
+    "truffle-hdwallet-provider": "^1.0.16"
+  }
+}
